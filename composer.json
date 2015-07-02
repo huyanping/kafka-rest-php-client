@@ -1,0 +1,26 @@
+{
+  "name": "jenner/kafka_reset_php_client",
+  "type": "library",
+  "description": "kafka-reset php http client",
+  "keywords": [
+    "kafka-reset",
+    "kafka client",
+    "kafka client"
+  ],
+  "homepage": "https://github.com/huyanping/kafka-rest-php-client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jenner",
+      "email": "hypxm@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jenner\\Kafka\\": "src/Kafka"
+    }
+  }
+}
