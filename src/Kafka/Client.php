@@ -36,6 +36,7 @@ class Client
 
     public function httpPost($uri, $params)
     {
+        $uri = 'http://' . $this->domain . ':' . $this->port . $uri;
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $uri);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
@@ -65,6 +66,7 @@ class Client
 
     public function httpGet($uri)
     {
+        $uri = 'http://' . $this->domain . ':' . $this->port . $uri;
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $uri);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
