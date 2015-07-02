@@ -8,7 +8,7 @@
 
 namespace Jenner\Kafka;
 
-abstract class Client
+class Client
 {
 
     protected $domain;
