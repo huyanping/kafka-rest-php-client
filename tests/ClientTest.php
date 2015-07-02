@@ -17,6 +17,6 @@ class ClientTest extends PHPUnit_Framework_TestCase
 
     public function testGet()
     {
-        echo $this->client->httpGet('/topics');
+        var_dump($this->client->httpGet('/topics'));
     }
 }
