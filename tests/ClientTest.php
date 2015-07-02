@@ -12,7 +12,7 @@ class ClientTest extends PHPUnit_Framework_TestCase
     protected $client;
 
     public function setUp(){
-        $this->client = new \Jenner\Kafka\Client('127.0.0.1', 8081);
+        $this->client = new \Jenner\Kafka\Client('127.0.0.1', 8082);
     }
 
     public function testGet()
